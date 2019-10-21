@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FiguraTest", "FiguraTest\FiguraTest.vbproj", "{81BDDBEE-437A-4D08-A2F6-1B7C3DD14057}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FigurasGeometricas", "FigurasGeometricas\FigurasGeometricas.vbproj", "{073F2226-FB08-406A-A7D5-3F28D3B5890D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81BDDBEE-437A-4D08-A2F6-1B7C3DD14057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BDDBEE-437A-4D08-A2F6-1B7C3DD14057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BDDBEE-437A-4D08-A2F6-1B7C3DD14057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BDDBEE-437A-4D08-A2F6-1B7C3DD14057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073F2226-FB08-406A-A7D5-3F28D3B5890D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073F2226-FB08-406A-A7D5-3F28D3B5890D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073F2226-FB08-406A-A7D5-3F28D3B5890D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073F2226-FB08-406A-A7D5-3F28D3B5890D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23D79B04-5C82-4E5A-90FC-76DF0D4B389B}
+	EndGlobalSection
+EndGlobal
