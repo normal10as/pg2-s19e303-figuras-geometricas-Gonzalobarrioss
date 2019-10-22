@@ -1,4 +1,4 @@
-﻿Public Class Figura
+﻿Public MustInherit Class Figura
     Public Sub New()
         Me.nombre = ""
     End Sub
@@ -13,7 +13,5 @@
         End Set
     End Property
 
-    Public Overridable Function calcularArea() As Single
-
-    End Function
+    Public MustOverride Function calcularArea() As Single
 End Class
