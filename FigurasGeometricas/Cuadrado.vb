@@ -1,11 +1,12 @@
 ﻿Public Class Cuadrado
     Inherits Figura
 
-    Public Sub New()
-        Me.lado = 0
+    Public Sub New(nombre As String, lado As Single)
+        MyBase.New(nombre)
+        Me.lado = lado
     End Sub
 
-    Public Property lado As UShort
+    Public Property lado As Single
 
     Public Overrides Function calcularArea() As Single
         Return lado * lado

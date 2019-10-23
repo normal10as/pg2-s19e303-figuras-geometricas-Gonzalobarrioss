@@ -2,11 +2,12 @@ Imports System.Math
 Public Class Circulo
     Inherits Figura
 
-    Public Sub New()
-        Me.radio = 0
+    Public Sub New(nombre As String, radio As Single)
+        MyBase.New(nombre)
+        Me.radio = radio
     End Sub
 
-    Public Property radio As UShort
+    Public Property radio As Single
 
 
     Public Overrides Function calcularArea() As Single

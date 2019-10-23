@@ -1,6 +1,6 @@
 ﻿Public MustInherit Class Figura
-    Public Sub New()
-        Me.nombre = ""
+    Public Sub New(nombre As String)
+        Me.nombre = nombre
     End Sub
 
     Private _nombre As String
